@@ -36,10 +36,10 @@ This is my web curriculum design, development using Bootstrap.
 │      sport.png  
 │      
 └─js
-        bootstrap.js  
-        bootstrap.min.js  
-        bootstrapValidator.min.js  
-        crootblog-js.js  
-        jquery.js  
-        jquery.min.js  
-        npm.js  
+│        bootstrap.js  
+│        bootstrap.min.js  
+│        bootstrapValidator.min.js  
+│        crootblog-js.js  
+│        jquery.js  
+│        jquery.min.js  
+└─       npm.js  
