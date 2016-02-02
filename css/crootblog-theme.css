@@ -1,0 +1,197 @@
+/*
+                      ____ ____             _     ____            _
+                     / ___|  _ \ ___   ___ | |_  |  _ \  ___  ___(_) __ _ _ __
+                    | |   | |_) / _ \ / _ \| __| | | | |/ _ \/ __| |/ _` | '_ \
+                    | |___|  _ < (_) | (_) | |_  | |_| |  __/\__ \ | (_| | | | |
+                     \____|_| \_\___/ \___/ \__| |____/ \___||___/_|\__, |_| |_|
+                                                                    |___/
+                    
+Author:CRoot（袁野）
+*/
+@font-face {
+    font-family: 'cuteFont';
+    src: url('../fonts/cuteFont.ttf') format('truetype');
+}
+body{
+	font-family: 'cuteFont';
+	margin:20px 80px 20px 80px;
+}
+.mynav{
+	margin-bottom: 20px;
+}
+.mynav>ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	width: 960px;
+	height: 80px;
+}
+.mynav>ul>li{
+	float:left;
+}
+.mytitle{
+	font-weight:bold;
+	font-size: 30px;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+.mynav>ul>li{
+	/*margin: 30px 10px 30px 10px;*/
+	margin-top: 30px;
+	text-align: center;
+}
+.navmenu{
+	border-right: 1px solid #F0F0F0;
+	height: 50px;
+	/*width: 100px;*/
+}
+#rednav{
+	margin-left: 30px;
+	border-bottom: 4px solid red;
+}
+#greennav{
+	border-bottom: 4px solid green;
+}
+#bluenav{
+	border-bottom: 4px solid blue;
+}
+#yellownav{
+	border-bottom: 4px solid yellow;
+	border-right: 0px;
+}
+#purolenav{
+	border-bottom: 4px solid purple;
+	border-right: 0px;
+}
+.navmenu>a{
+	text-align: center;
+	display: block;
+	height: 46px;
+	width: 110px;
+	text-decoration: none;
+	line-height: 46px;
+	color: black;
+}
+.navmenu>a:hover{
+	background-color: #F0F0F0;
+}
+.navmenu-active{
+	background-color: #F0F0F0;
+}
+#carousel{
+	height: 900px;
+}
+.infoblock{
+	position: absolute;
+	top: 300px;
+	font-size: 17px;
+	/*background:none;
+	background-color:#C0C0C0;*/
+	filter:alpha(opacity=30);
+	/*-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;*/
+	background:rgba(255, 255, 255, 0.5);
+	width: 100%;
+	height: 500px;
+	z-index: 1;
+	padding-left: 50px;
+}
+#profiles{
+	font-size: 40px;
+	color: #00AAFC;
+	text-shadow: 1px 1px 3px #DDD;
+	/*margin-left: 50px;*/
+}
+.skilltable{
+	list-style-type:none;
+	margin-left: 150px;
+	padding:0;
+	overflow:hidden;
+	text-align: center;
+}
+.skilltable>li{
+	float:left;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.skilltable>li>img{
+	width: 96px;
+	height: 96px;
+	border-radius:256px;
+	transition:transform 0.5s;
+	-moz-transition:-moz-transform 0.5s; /* Firefox 4 */
+	-webkit-transition:-webkit-transform 0.5s; /* Safari and Chrome */
+	-o-transition:-o-transform 0.5s; /* Opera */
+}
+.skilltable>li>img:hover{
+	width: 96px;
+	height: 96px;
+	border-radius:256px;
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+.infolist{
+	margin-top: 30px;
+	margin-left: 50px;
+	font-size: 15px;
+}
+.personal{
+	float: left;
+}
+.avatars{
+	margin-left: 10px;
+	float: left;
+}
+#unkonw{
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+}
+.footer{
+	/*position: absolute;
+	bottom: 0;
+	clear: right;
+	
+	position: absolute;
+	bottom: 0px;*/
+	margin-top:100px;
+	text-align: center;
+	background-color: #F0F0F0;
+	height: 70px;
+	line-height: 70px;
+	border-radius:256px;
+	width: auto;
+	clear:both;
+}
+.tooltable{
+	float: left;
+	width: 70%;
+}
+.toolcategory{
+	margin-left: 20px;
+	float: left;
+	width: 20%;
+}
+/*
+*以下是没有用的东西，等上传博客后删除以下CSS样式
+*/
+.container{
+	margin: 50px auto 0 auto;
+	width: 400px;
+	background-color: white;
+	border-radius:25px;
+	padding: 20px 20px 20px 20px;
+}
+.container input,.container button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#register-backimage{
+	background-image: url("../image/regester-back.jpg");
+}
